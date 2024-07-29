@@ -16,6 +16,7 @@
     "material-icons": "^1.13.12",
     "mdi-vue": "^3.0.13",
     "pinia": "^2.1.7",
+    "require": "^2.4.20",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
