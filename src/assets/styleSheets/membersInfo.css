@@ -1,0 +1,29 @@
+.detail-Container {
+  margin: 0;
+  border: 0.02rem solid gray;
+  width: 70%;
+  height: 100%;
+  border-radius: 1rem;
+  right: 0;
+  background-color: rgb(192, 190, 190);
+}
+
+.detail-header {
+  box-shadow: 0 0.2rem rgba(41, 40, 40, 0.288);
+}
+
+.detail-tittle {
+  margin-left: 2%;
+}
+
+.detail-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2%;
+}
+
+.detail-article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
