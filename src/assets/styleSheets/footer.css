@@ -1,0 +1,43 @@
+.rodapedosguri{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid;
+    gap: 20px;
+    padding: 10px;
+}
+.theboys{
+    display: flex;
+    flex-direction: column;
+}
+.theboys div{
+    display: flex;
+    gap: 10px;
+}
+.created-by{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.created-by a {
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+.created-by a:hover{
+    color: blue;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.direitos{
+    margin-right: 100px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
