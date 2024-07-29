@@ -32,7 +32,7 @@ const props = defineProps({
                 </div>
 
                 <div class="box-languages">
-                    <div class="boxes" v-for="(langs,index) in props.languages" :key="index"><p>{{ langs }}</p></div>
+                    <div class="boxes" v-for="(langs,index) in props.languages" :key="index"> <mdicon class="vicon" :name="langs" :height="40" :width="40" fill="black" /></div>
                 </div>
             </div>
             <div class="overlay-about">

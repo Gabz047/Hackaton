@@ -11,7 +11,7 @@ import { boxNavigationsInfo } from '@/utils/headerInformation';
             <mdicon class="vicon" :name="item.icon" :height="20" :width="20" fill="black" />
           </div>
           <div class="text-span">
-            <router-link class="text-span-content"><p>
+            <router-link class="text-span-content" :to="item.link"><p>
                 {{ item.name }}
             </p></router-link>
           </div>

@@ -7,18 +7,18 @@ import photo from '@/assets/media/2.jpg'
 
 export const members = ref([
     {image: photo, name: 'Gabriel_Lucas', amountPr: 3, languages: [
-        'js', 'python', 'html', 'css'
+        'language-javascript', 'language-python', 'language-html5', 'language-css3'
     ] },
-    {image: '', name: 'João_Souza', amountPr: 3, languages: [
-        'js', 'python', 'html', 'css'
+    {image: '', name: 'João_Souza', amountPr: 3,languages: [
+        'language-javascript', 'language-python', 'language-html5', 'language-css3'
     ] },
     {image: '', name: 'Luan_Tiola', amountPr: 3, languages: [
-        'js', 'python', 'html', 'css'
+        'language-javascript', 'language-python', 'language-html5', 'language-css3'
     ] },
     {image: '', name: 'Renato_Moraes', amountPr: 3, languages: [
-        'js', 'python', 'html', 'css'
+        'language-javascript', 'language-python', 'language-html5', 'language-css3'
     ] },
     {image: '', name: 'Maria_Lotin', amountPr: 3, languages: [
-        'js', 'html', 'css'
+        'language-javascript', 'language-html5', 'language-css3'
     ] }
 ])
