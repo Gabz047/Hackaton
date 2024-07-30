@@ -103,6 +103,13 @@
     height: 100dvh;
 }
 
+@media (max-width: 1300px ) {
+    .container-members-span {
+        width: 280px;
+       gap: 50px;
+    }
+}
+
 @media (max-width: 300px) {
     .container-members-span {
         width: 250px;
