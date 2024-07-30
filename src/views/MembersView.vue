@@ -9,8 +9,9 @@ const showCard = ref(false)
 <template>
     <main class="main-members" >
     <div class="container-mbm" >
-    <MembersCard v-for="(item, index) in members" :key="index" :image="item.image" :name="item.name" :info_project="item.amountPr" :languages="item.languages" />
+    <MembersCard v-for="(item, index) in members" :key="index" :image="item.image" :name="item.name" :info_project="item.amountPr" :languages="item.languages" @open="showCard = !showCard" />
     </div>
+    <MembersInfo :classes="{open: showCard}" />
     </main>
    
 </template>
