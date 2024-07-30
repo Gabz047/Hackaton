@@ -17,8 +17,12 @@
       <p>&copy; 2024 Comprometidos com o Hackatas. Todos os direitos reservados</p>
     </div>
     <div class="links">
-      <h2>link do github</h2>
-      <a href="https://github.com/Comprometidos-com-o-Hackatas"><mdicon name="github" width="30" height="30" ></mdicon></a>
+      <h2>Redes_Sociais</h2>
+      <div class="box-links">
+      <a href="https://github.com/Comprometidos-com-o-Hackatas"><mdicon name="instagram" width="33" height="33" ></mdicon></a>
+      <a href="https://github.com/Comprometidos-com-o-Hackatas"><mdicon name="github" width="35" height="35" ></mdicon></a>
+      <a href="https://github.com/Comprometidos-com-o-Hackatas"><mdicon name="reddit" width="35" height="35" ></mdicon></a>
+     </div>
     </div>
   </footer>
 </template>
