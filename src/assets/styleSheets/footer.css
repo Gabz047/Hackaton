@@ -11,8 +11,9 @@
     width: 100%;
     height: 120px;
     background-color: white;
-    bottom: 0;
+    position: relative;
     z-index: 20;
+    box-sizing: border-box;
 }
 .theboys{
     display: flex;
