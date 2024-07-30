@@ -1,11 +1,17 @@
 <script setup>
 import MembersInfo from '../components/MembersInfo.vue'
+import { membersDetails } from '../utils/membersInfo'
+
 </script>
 
 <template>
   <MembersInfo
-    name="nome"
-    about="nofaisfoijgkem je oafjio as fisajfoi jasoif io safhoifshao icsx sahdoasihdoi asiohoidjoif osfiosahd iuhsaiudh as iushfsahoidfhsoa iouh"
+  v-for=" item in membersDetails" :key="item.name"
+    :name="item.name"
+    :about="item.about"
+    :image="item.image"
+    :languages="item.languages"
+    :prjs="item.prjs"
   />
 </template>
 

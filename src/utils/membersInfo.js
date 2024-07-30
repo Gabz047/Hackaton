@@ -22,3 +22,29 @@ export const members = ref([
         'language-javascript', 'language-html5', 'language-css3'
     ] }
 ])
+
+export const membersDetails = ref([
+    {image: photo, name: 'Gabriel_Lucas', about: 'texto breve apresentando o membro', languages: [
+        'language-javascript', 'language-python', 'language-html5', 'language-css3'
+    ], prjs: [
+        'mooner', 'biblioteca Alexandria', 'form de edição'
+    ] },
+    {image: '', name: 'João_Souza', about: 'texto breve apresentando o membro',languages: [
+        'language-javascript', 'language-python', 'language-html5', 'language-css3'
+    ], prjs: [
+        'mooner', 'biblioteca Alexandria', 'form de edição'
+    ] },
+    {image: '', name: 'Luan_Tiola', about: 'texto breve apresentando o membro', languages: [
+        'language-javascript', 'language-python', 'language-html5', 'language-css3'
+    ], prjs: [
+        'mooner', 'biblioteca Alexandria', 'form de edição'
+    ] },
+    {image: '', name: 'Renato_Moraes', about: 'texto breve apresentando o membro', languages: [
+        'language-javascript', 'language-python', 'language-html5', 'language-css3'
+    ] },
+    {image: '', name: 'Maria_Lotin', about: 'texto breve apresentando o membro', languages: [
+        'language-javascript', 'language-html5', 'language-css3'
+    ], prjs: [
+        'mooner', 'biblioteca Alexandria', 'form de edição'
+    ] }
+])
