@@ -14,9 +14,13 @@ const props = defineProps({
     }
 })
 
+const emits = defineEmits([
+    'open'
+])
+
 </script>
 <template>
-    <span class="container-members-span">
+    <span class="container-members-span"  @click="emits('open')">
         <div class="container-members">
             <div class="box-img">
                 <img :src="props.image" alt="">

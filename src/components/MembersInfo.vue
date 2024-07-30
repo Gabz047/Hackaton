@@ -5,11 +5,12 @@ const props = defineProps({
     about: String,
     languages: Array,
     prjs: Array,
+    classes: String
 })
 </script>
 
 <template>
-    <main class='detail-Container'>
+    <main class='detail-Container' :class="props.classes">
         <div class='detail-header'>
             <h1 class='detail-tittle'>{{ props.name }}</h1>
         </div>

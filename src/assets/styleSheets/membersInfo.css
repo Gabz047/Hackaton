@@ -1,11 +1,21 @@
 .detail-Container {
   margin: 0;
   border: 0.02rem solid gray;
-  width: 70%;
+  width: 0;
   height: 100%;
   border-radius: 1rem;
   right: 0;
   background-color: rgb(192, 190, 190);
+  opacity: 0;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.detail-Container.open {
+  display: flex;
+  opacity: 1;
+  margin-right: 0px;
+  width: 70%;
 }
 
 .detail-header {
@@ -82,3 +92,4 @@
 .detail-prj > ul {
   list-style: none;
 }
+

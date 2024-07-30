@@ -1,7 +1,9 @@
 <script setup>
 import MembersCard from '@/components/MembersCard.vue';
 import { members} from '@/utils/membersInfo';
-
+import MembersInfo from '@/components/MembersInfo.vue';
+import { ref } from 'vue';
+const showCard = ref(false)
 </script>
 
 <template>
