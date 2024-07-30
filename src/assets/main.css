@@ -4,6 +4,7 @@
 #app {
   max-width: 100%;
   height: auto;
+  position: relative;
 }
 
 html, body {

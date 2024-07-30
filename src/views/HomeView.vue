@@ -19,4 +19,5 @@ import { photosobj } from '@/utils/target'
       />
     </div>
   </div>
+  
 </template>
