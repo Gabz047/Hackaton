@@ -2,12 +2,7 @@
 @import './imports.css';
 
 #app {
-  max-width: 100%;
-  height: auto;
-  position: relative;
+  width: 100%;
+  max-width: 100dvw;
 }
 
-html, body {
-  width: 100dvw;
-  height: auto;
-}
